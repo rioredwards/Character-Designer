@@ -41,7 +41,7 @@ function displayCharacter() {
 
 function displayPhrases() {
     // clear the list
-    phraseList.innerHTML = '';
+    phraseList.innerHTML = 'a';
 
     for (const phrase of character.phrases) {
         // > create an <li> element
